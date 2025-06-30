@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TribalGen</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 TribalGen - Générateur de Motifs Tribaux</h1>
+        <div class="prompt-section">
+            <input type="text" id="promptInput" placeholder="Décris ton motif tribal ici...">
+            <input type="number" id="imageCount" value="1" min="1" max="5" title="Nombre d’images">
+            <button onclick="generateImage()">🎨 Générer</button>
+            <button onclick="autoPrompt()">✨ Auto-prompt</button>
+            <select id="presetSelect" onchange="usePreset()">
+                <option disabled selected>Style préconfiguré</option>
+            </select>
+        </div>
+        <div id="result"></div>
+        <div class="footer">
+            <button onclick="loadHistory()">📜 Historique</button>
+            <p><small>By trhacknon | Pour CapCut : télécharge l’image ou <a href="#" onclick="exportCapCut()">exporter JSON</a></small></p>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
