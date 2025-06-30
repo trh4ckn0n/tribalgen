@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, request, jsonify
 import openai, os, json, sqlite3
 from dotenv import load_dotenv
@@ -91,4 +90,4 @@ def capcut_export():
     return jsonify(export_json)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0")
