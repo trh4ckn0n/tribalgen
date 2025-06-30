@@ -1,0 +1,12 @@
+{
+  "media": [
+    {
+      "duration": 5,
+      "src": "",
+      "style": "centered",
+      "type": "image"
+    }
+  ],
+  "type": "CapCutProject",
+  "version": "1.0"
+}
