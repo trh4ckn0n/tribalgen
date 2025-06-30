@@ -1,0 +1,26 @@
+
+body {
+    background: #111;
+    color: #eee;
+    font-family: monospace;
+    text-align: center;
+}
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button {
+    background: #00ffcc;
+    color: black;
+    cursor: pointer;
+}
+img {
+    max-width: 300px;
+    border: 2px solid #00ffcc;
+    margin: 10px;
+}
+.container {
+    padding: 20px;
+}
